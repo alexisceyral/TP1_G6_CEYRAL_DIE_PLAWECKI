@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+//faut push
         System.out.println("Please enter the first integer");
         int firstInteger = scanner.nextInt();
         System.out.println("Please enter the second integer");
