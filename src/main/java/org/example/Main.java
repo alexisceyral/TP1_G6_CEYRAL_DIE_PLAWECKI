@@ -5,14 +5,12 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int myInt = scanner.nextInt();
-        float myFloat = scanner.nextFloat();
-        scanner.nextLine();  // ⭐ AJOUTEZ CETTE LIGNE pour "nettoyer" le buffer
 
-        System.out.println("I have an int: " + myInt);
-        System.out.println("I have a float: " + myFloat);
-        System.out.println("Hello, what is your first name ?");
-        String myString = scanner.nextLine();
-        System.out.println("My name is: " + myString);
+        System.out.println("Please enter the first integer");
+        int firstInteger = scanner.nextInt();
+        System.out.println("Please enter the second integer");
+        int secondInteger = scanner.nextInt();
+        int sum = firstInteger + secondInteger;
+        System.out.println("The sum of " + firstInteger + " and " + secondInteger + " is equal to " + sum);
     }
 }
