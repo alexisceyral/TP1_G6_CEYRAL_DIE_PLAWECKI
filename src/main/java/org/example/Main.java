@@ -8,5 +8,7 @@ public class Main {
         int myInt = scanner.nextInt();
         float myFloat = scanner.nextFloat();
         System.out.println("I have an int: " + myInt);
-        System.out.println("I have a float: " + myFloat);  }
+        System.out.println("I have a float: " + myFloat);
+        System.out.println("Hello,what is your first name ?");  }
 }
+
